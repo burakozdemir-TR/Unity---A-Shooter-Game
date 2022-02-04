@@ -5,16 +5,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
-    void Start()
+    private Vector3 movement;
+    Rigidbody rb;
+    private void Start()
     {
-        speed = 10;
+        rb = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
-    void Update()
+    private void Update()
     {
         Movement();
     }
     private void Movement()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * speed, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
+        movement = Input.GetAxis("Horizontal") * transform.right + Input.GetAxis("Vertical") * transform.forward;
+        transform.Translate(movement.normalized * Time.deltaTime * speed, Space.World);
     }
 }
