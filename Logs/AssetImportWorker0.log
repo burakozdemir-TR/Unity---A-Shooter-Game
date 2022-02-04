@@ -1915,3 +1915,91 @@ System memory in use after: 60.6 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1716.
 Total: 1.853400 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.433000 ms  DeleteObjects: 0.049200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2742.347889 seconds.
+  path: Assets/shotgun/MARMO3.obj
+  artifactKey: Guid(e870f12990348ad4b94b4cdb8f09b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/MARMO3.obj using Guid(e870f12990348ad4b94b4cdb8f09b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25da990badadb1303051d3b7b22a25b1') in 0.301105 seconds
+  Import took 0.303946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.627927 seconds.
+  path: Assets/Thirdparty/Ciathyza
+  artifactKey: Guid(70b9c941ef1124745803eba857c82954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Ciathyza using Guid(70b9c941ef1124745803eba857c82954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799bb06a63a4ca5cc1fc4f2ff99a7c75') in 0.006516 seconds
+  Import took 0.008696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588611 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials
+  artifactKey: Guid(6a2861bb1fc2bf549863c6fc8bd13f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials using Guid(6a2861bb1fc2bf549863c6fc8bd13f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3695485f4816b50ee03e776064edc468') in 0.006709 seconds
+  Import took 0.008874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.897276 seconds.
+  path: Assets/shotgun/Materials
+  artifactKey: Guid(ad01c0712946b8d4b81abc53b29eebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials using Guid(ad01c0712946b8d4b81abc53b29eebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3834afe2b1c102be7907b7b212b49255') in 0.003326 seconds
+  Import took 0.005335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.309082 seconds.
+  path: Assets/shotgun/Materials/5_d.tga
+  artifactKey: Guid(49bafc5fc3ea84a4a8adfafebea7ab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/5_d.tga using Guid(49bafc5fc3ea84a4a8adfafebea7ab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecedf9c7c30291e44bafcb34e925f07c') in 0.037787 seconds
+  Import took 0.039976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/shotgun/Materials/7_d.tga
+  artifactKey: Guid(c6fc058906ba4f24ab946dc0632792ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/7_d.tga using Guid(c6fc058906ba4f24ab946dc0632792ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90496553fcbb8d4990d09cf893a8a260') in 0.012118 seconds
+  Import took 0.013840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/shotgun/Materials/MARMO3-defaultMat.mat
+  artifactKey: Guid(2715b4cf0ca32444c87c9ed33288343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/MARMO3-defaultMat.mat using Guid(2715b4cf0ca32444c87c9ed33288343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1f57ce6d7f790c5af7d46bc787323f') in 0.022909 seconds
+  Import took 0.024843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/shotgun/Materials/6_d.tga
+  artifactKey: Guid(a22bdaf48d2be41468c144c12f886faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/6_d.tga using Guid(a22bdaf48d2be41468c144c12f886faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856c6a257777cd9f70835dedc5b26072') in 0.011566 seconds
+  Import took 0.013411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/shotgun/Materials/5_s.tga
+  artifactKey: Guid(cbd96c4a34b1af54981332856066e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/5_s.tga using Guid(cbd96c4a34b1af54981332856066e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04315a23ddd84ed111a13068f7ed4aa8') in 0.010595 seconds
+  Import took 0.012598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/shotgun/Materials/5_n.tga
+  artifactKey: Guid(7c4df38c2f75de5448f4e952a0d59db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/5_n.tga using Guid(7c4df38c2f75de5448f4e952a0d59db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23251fa6494ed2777ab30893df0b83b3') in 0.009968 seconds
+  Import took 0.011987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/shotgun/Materials/8.tga
+  artifactKey: Guid(63e297964ae4afe4e99f5fcd0d85dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shotgun/Materials/8.tga using Guid(63e297964ae4afe4e99f5fcd0d85dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d30756b1d95c1847452e61135207ca8') in 0.011445 seconds
+  Import took 0.013517 seconds .
+
