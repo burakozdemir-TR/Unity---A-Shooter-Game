@@ -11,8 +11,6 @@ public class PlayerShoot : MonoBehaviour
     void Start()
     {
         bulletPooler = BulletPooler.Instance;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
     void Update()
     {

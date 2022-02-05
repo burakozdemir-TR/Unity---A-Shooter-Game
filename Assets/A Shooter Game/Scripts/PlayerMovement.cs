@@ -5,12 +5,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Vector3 movement;
-    private Rigidbody rb;
-    
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
     private void Update()
     {
         Movement();

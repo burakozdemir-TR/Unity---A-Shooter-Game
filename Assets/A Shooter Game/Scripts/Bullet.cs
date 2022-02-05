@@ -12,11 +12,13 @@ public class Bullet : MonoBehaviour, IPooledObject
     public void Configure(Transform shootFrom)
     {
         var shootRotation = 
-            shootFrom.rotation.eulerAngles 
-            + Vector3.right * Random.Range(horizontalSpread.x, horizontalSpread.y)
-            + Vector3.up * Random.Range(verticalSpread.x, verticalSpread.y);
+        shootFrom.rotation.eulerAngles 
+        + Vector3.right * Random.Range(horizontalSpread.x, horizontalSpread.y)
+        + Vector3.up * Random.Range(verticalSpread.x, verticalSpread.y);
+
         transform.position = shootFrom.position;
         transform.rotation = Quaternion.Euler(shootRotation);
+
         rb.velocity = transform.forward * bulletSpeed;
     }
     public bool IsAvailable { get; set; }   
