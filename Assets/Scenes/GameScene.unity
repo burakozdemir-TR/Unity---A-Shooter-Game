@@ -603,6 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 498376095}
+  shootCountText: {fileID: 1346625501}
 --- !u!1 &518822037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 361dcf282411194439218230375175a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootCount: 0
   firePoint: {fileID: 1923673511}
   shootCountText: {fileID: 1346625501}
 --- !u!1 &1346625499

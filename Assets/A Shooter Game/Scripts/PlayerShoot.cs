@@ -2,15 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class PlayerShoot : MonoBehaviour
 {
+    [HideInInspector]
+    public int shootCount = 0;
     public Transform firePoint;
     BulletPooler bulletPooler;
-    public Text shootCountText;
+    private bool canShootable = false;
     void Start()
     {
         bulletPooler = BulletPooler.Instance;
+        Actions.mainMenuFadeOut += IsShootable;
     }
     void Update()
     {
@@ -20,13 +24,20 @@ public class PlayerShoot : MonoBehaviour
         }
     }
     private void Shoot()
-    { 
+    {
+        if (!canShootable)
+            return;
         var randomBulletCount = Random.Range(10, 21);
-        shootCountText.text = randomBulletCount.ToString();
+        shootCount = randomBulletCount;
+        Actions.shootCountUpdate?.Invoke(this);
         for (int i = 0; i < randomBulletCount; i++)
         {
             var bullet = bulletPooler.GetFromPool<Bullet>("ShotgunShells");
             bullet.Configure(firePoint);
         }
+    }
+    private void IsShootable()
+    {
+        canShootable = !canShootable;
     }
 }
