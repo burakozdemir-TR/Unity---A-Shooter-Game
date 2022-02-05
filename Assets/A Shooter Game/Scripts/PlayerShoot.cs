@@ -14,7 +14,7 @@ public class PlayerShoot : MonoBehaviour
     void Start()
     {
         bulletPooler = BulletPooler.Instance;
-        Actions.mainMenuFadeOut += IsShootable;
+        Actions.mainMenuFadeOut += ToggleShootable;
     }
     void Update()
     {
@@ -36,7 +36,7 @@ public class PlayerShoot : MonoBehaviour
             bullet.Configure(firePoint);
         }
     }
-    private void IsShootable()
+    private void ToggleShootable()
     {
         canShootable = !canShootable;
     }
