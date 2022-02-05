@@ -37,11 +37,7 @@ public class BulletPooler : MonoBehaviourSingleton<BulletPooler>
         else
         {
             var prefab = pools.Where(p => p.tag == tag).Select(p => p.prefab).FirstOrDefault();
-            var randomBullet = Random.Range(10, 20);
-            for(int i = 0; i < randomBullet; i++)
-            {
-                objectToSpawn = Instantiate(prefab).GetComponent<IPooledObject>();
-            }
+            objectToSpawn = Instantiate(prefab).GetComponent<IPooledObject>();
         }
         objectToSpawn.OnObjectSpawn();
         poolDictionary[tag].Enqueue(objectToSpawn);

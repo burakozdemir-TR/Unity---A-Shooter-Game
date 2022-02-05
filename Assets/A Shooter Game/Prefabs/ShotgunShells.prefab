@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8223928651940066869}
   - component: {fileID: 8546823218220114019}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: ShotgunShells
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8465551890737675927}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39066ed36faeff4b93b73b27f2bee93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upForce: 1
-  sideForce: 0.1
   rb: {fileID: 8223928651940066869}
+  horizontalSpread: {x: -5, y: 5}
+  verticalSpread: {x: -5, y: 5}
+  bulletSpeed: 10
